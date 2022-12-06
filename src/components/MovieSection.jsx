@@ -1,24 +1,24 @@
 import React from 'react'
 
-const FilmSection = ({imgPath, title, desc, genre, grade}) => {
+const MovieSection = ({imgPath, title, desc, genre, grade}) => {
 
   return (
-    <div className='film-section'>
-      <div className='film-section-img'>
+    <div className='movie-section'>
+      <div className='movie-section-img'>
         <img src={imgPath} alt='obrazek wstawionego filmu' id='movie-img'/>
       </div>
-      <div className='film-section-title-desc'>
-        <div className='film-section-grade'>
+      <div className='movie-section-title-desc'>
+        <div className='movie-section-grade'>
           <img src={require('../assets/img/star-symbol-icon.png')} alt="ikona oceny filmu" id='star-img'/>
           {grade}
         </div>
-        <div className='film-section-title'>
+        <div className='movie-section-title'>
           {title}
         </div>
-        <div className='film-section-desc'>
+        <div className='movie-section-desc'>
           {desc}
         </div>
-        <div className='film-section-genre'>
+        <div className='movie-section-genre'>
           Gatunek : {genre}
         </div>
       </div>
@@ -26,4 +26,4 @@ const FilmSection = ({imgPath, title, desc, genre, grade}) => {
   )
 }
 
-export default FilmSection
+export default MovieSection

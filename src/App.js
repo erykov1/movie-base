@@ -2,7 +2,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Logo from './components/Logo';
 import Navbar from './components/Navbar';
-import FilmSection from './components/FilmSection';
+import MovieSection from './components/MovieSection';
 
 function App() {
 
@@ -36,8 +36,8 @@ function App() {
         <Logo />
         <Navbar />
       </div>
-      <div className='film-section-fill'>
-        {movies.map((movie) => <FilmSection imgPath={movie.imgPath} title={movie.title} desc={movie.desc} genre={movie.genre} grade={movie.grade}/> )}
+      <div className='movie-section-fill'>
+        {movies.map((movie) => <MovieSection imgPath={movie.imgPath} title={movie.title} desc={movie.desc} genre={movie.genre} grade={movie.grade}/> )}
       </div>
       <Footer/>
     </div>

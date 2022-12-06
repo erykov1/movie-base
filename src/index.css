@@ -60,7 +60,7 @@ code {
   background-color: goldenrod;
   width: 150px;
   height: 50px;
-  margin: 25px;
+  margin: 35px;
   border-radius: 15px;
 }
 
@@ -71,7 +71,7 @@ code {
   background-color: #20292F;
 }
 
-.film-section {
+.movie-section {
   width: 90%;
   margin: auto;
   background-color: #333333;
@@ -84,21 +84,21 @@ code {
   background-color: #3a4b53;
 }
 
-.film-section-title {
+.movie-section-title {
   font-weight: bold;
   font-size: 42px;
 }
 
-.film-section-img {
+.movie-section-img {
   margin: 20px;
 }
 
-.film-section-title-desc {
+.movie-section-title-desc {
   padding: 20px;
   font-size: 28px;
 }
 
-.film-section-grade {
+.movie-section-grade {
   margin: 10px;
   font-size: 20px;
 }
