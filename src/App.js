@@ -24,7 +24,7 @@ function App() {
     {
       title: "Joker",
       imgPath: "https://fwcdn.pl/fpo/01/67/810167/7905225.3.jpg",
-      desc: "Życie pogrążonego w rozpaczy po stracie żony i syna kowala Baliana odmienia wizyta jego ojca, słynnego rycerza Godfryda z Ibelinu.",
+      desc: "Strudzony życiem komik popada w obłęd i staje się psychopatycznym mordercą.",
       genre: "Dramat",
       grade: "10/10"
     }
