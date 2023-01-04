@@ -65,7 +65,6 @@ code {
   margin-top: auto;
   border: none;
   border-radius: 15px;
-  align-self: flex-end;
   font-weight: bold;
   color: #333333;
   font-size: 20px;
@@ -115,4 +114,160 @@ code {
 #star-img {
   width: 14px;
   height: 14px;
+}
+
+#password-content {
+  width: 200px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+#login-content {
+  width: 200px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+#email-content {
+  width: 200px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+#name-content {
+  width: 200px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.login-form-container {
+  width: 100%;
+  height: 100%;
+}
+
+.signup-container {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.login-form {
+  background-color: #3a4b53;
+  color: whitesmoke;
+}
+
+.signin-btn {
+  background-color: goldenrod;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  margin: 20px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#main-text {
+  color: white;
+}
+
+.fill-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.signup-btn {
+  background-color: goldenrod;
+  border-radius: 20px;
+  width: 125px;
+  height: 50px;
+  margin: 20px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.register-route {
+  color: white;
+  font-size: 20px;
+}
+
+#img-fill {
+  max-width: 100%;
+  height: auto;
+}
+
+.add-movie-container {
+  width: 100%;
+  height: 100%;
+}
+
+.add-movie-content {
+  width: 100%;
+  height: 1080px;
+  background-image: url('https://wallpaper.dog/large/20493446.jpg');
+}
+
+.add-movie-content-form {
+  overflow: auto;
+  background-color: #CCCCCC;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.add-movie-content {
+  overflow: auto;
+}
+
+.movie-form-content {
+  border: #20292F solid 2px;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.movie-form-group {
+  margin: auto;
+  margin-top: 20px;
+}
+
+.add-movie-btn {
+  background-color: goldenrod;
+  border-radius: 20px;
+  width: 125px;
+  height: 50px;
+  margin: 70px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#title-content {
+  width: 200px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+#desc-content {
+  width: 200px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+#genre-content {
+  width: 200px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 15px;
 }
