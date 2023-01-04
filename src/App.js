@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<MoviePageasdasd />} />
+          <Route path='/' element={<MoviePage />} />
           <Route path='/signin' element={<LoginForm />} />
           <Route path='/signup' element={<SignUpForm />} />
           <Route path='/add' element={<AddMovie />} />
