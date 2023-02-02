@@ -43,8 +43,8 @@ const Navbar = ({search}) => {
       </div>
       <div className='login-registration'>
         {isNotLogged && <>
-          <button className='loginBtn' onClick={routeChangeSignIn}> zaloguj się </button>
-          <button className='loginBtn' onClick={routeChangeSignUp}> zarejestruj się </button> </>}
+          <button className='loginBtn' onClick={() => navigate('/signin')}> zaloguj się </button>
+          <button className='loginBtn' onClick={() => navigate('/signup')}> zarejestruj się </button> </>}
         {!isNotLogged && <>
           <button className='loginBtn' onClick={handleLogout}> wyloguj się </button>
           <button className='loginBtn' onClick={() => navigate('/add')}> dodaj film </button>

@@ -49,7 +49,7 @@ const LoginForm = () => {
       </div>
       <div className='register-route'>
         Nie masz jeszcze konta ? Załóż je
-        <button className='signup-btn' onClick={redirectToSignUp}> Załóż konto </button>
+        <button className='signup-btn' onClick={() => navigate('/signup')}> Załóż konto </button>
         <button className='signup-btn' onClick={() => navigate('/')}> Powrót </button>
       </div>
       <div className='fill-content'>
