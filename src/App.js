@@ -6,6 +6,7 @@ import LoginForm from './components/LoginForm';
 import SignUpForm from './components/SignUpForm';
 import Navbar from './components/Navbar';
 import AddMovie from './components/AddMovie';
+import MovieDetails from './components/MovieDetails';
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
           <Route path='/signin' element={<LoginForm />} />
           <Route path='/signup' element={<SignUpForm />} />
           <Route path='/add' element={<AddMovie />} />
-          <Route path='/details/:id' element={<AddMovie />} />
+          <Route path='/details/:id' element={<MovieDetails />} />
         </Routes>
         <Footer/>
       </BrowserRouter> 
