@@ -10,14 +10,6 @@ const Navbar = ({search}) => {
   const user = decodeToken(localStorage.getItem('token'));
   const isNotLogged = isExpired(localStorage.getItem('token'));
 
-  const routeChangeSignIn = () =>{  
-    navigate('/signin')
-  }
-
-  const routeChangeSignUp = () =>{  
-    navigate('/signup')
-  }
-
   const handleLogout = (event) => {
     event.preventDefault()
     axios({

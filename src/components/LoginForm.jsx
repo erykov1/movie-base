@@ -9,10 +9,6 @@ const LoginForm = () => {
 
   let navigate = useNavigate()
 
-  const redirectToSignUp = () => {  
-    navigate('/signup');
-  }
-
   const handleSubmit = (event) => {
     event.preventDefault()
     axios({
