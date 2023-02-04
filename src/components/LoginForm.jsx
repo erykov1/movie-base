@@ -19,7 +19,6 @@ const LoginForm = () => {
         password: password,
       }
     }).then((response) => {
-      console.log(response)
       localStorage.setItem('token', response.data.token)
       navigate('/')
     }).catch((error) =>{

@@ -20,7 +20,6 @@ const AddMovie = () => {
         content: desc
       }
     }).then((response) => {
-      console.log(response)
       navigate('/')
     }).catch((error) =>{
       console.log(error)

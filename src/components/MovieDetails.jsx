@@ -16,7 +16,6 @@ const MovieDetails = () => {
 
   useEffect(() => {
     console.log(id)
-    console.log("movie data")
     getMovie()
   }, [])
 

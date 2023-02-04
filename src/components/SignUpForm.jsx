@@ -25,7 +25,6 @@ const SignUpForm = () => {
         password: password,
       }
     }).then((response) => {
-      console.log(response)
       navigate('/')
     }).catch((error) =>{
       console.log(error)

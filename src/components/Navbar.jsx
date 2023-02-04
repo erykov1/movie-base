@@ -19,7 +19,6 @@ const Navbar = ({search}) => {
         userId: user.userId
       }
     }).then((response) => {
-      console.log(response)
       localStorage.setItem('token', response.data.token)
       navigate('/')
     }).catch((error) =>{
