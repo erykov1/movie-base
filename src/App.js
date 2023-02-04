@@ -1,12 +1,13 @@
 import './App.css';
 import Footer from './components/Footer';
-import { Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Router, Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
 import MoviePage from './pages/MoviePage';
 import LoginForm from './components/LoginForm';
 import SignUpForm from './components/SignUpForm';
 import Navbar from './components/Navbar';
 import AddMovie from './components/AddMovie';
 import MovieDetails from './components/MovieDetails';
+import { isExpired } from 'react-jwt';
 
 function App() {
 
@@ -17,7 +18,11 @@ function App() {
           <Route path='/' element={<MoviePage />} />
           <Route path='/signin' element={<LoginForm />} />
           <Route path='/signup' element={<SignUpForm />} />
-          <Route path='/add' element={<AddMovie />} />
+          <Route path='/add' element={
+            isExpired(localStorage.getItem("token") ?? "") ? (
+              <Navigate replace to='/' />
+            ) : (<AddMovie />)
+          } />
           <Route path='/details/:id' element={<MovieDetails />} />
         </Routes>
         <Footer/>
